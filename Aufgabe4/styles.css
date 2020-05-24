@@ -1,0 +1,128 @@
+html * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body { 
+font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+header div{
+   position: relative;
+   top: 0;
+   padding: 20px;
+   text-decoration: none;
+   color:white;
+   background-color: rgb(97, 93, 93);
+   width: 100%;
+   z-index: 20000000000000000000;
+   
+   
+   }
+
+#navbar {
+   margin-top: 130px;
+   width: 100%;
+   text-align: center;
+   background-image: linear-gradient(to top right, rgba(0, 0, 0,0), rgb(0, 0, 0));
+   border-radius: 5px 5px 5px 5px;
+   border: 2px solid grey;
+   z-index: 0;
+}
+.shopping-element {
+   position: relative;
+/*background-color: red;*/
+margin-bottom: 40px;
+margin-left: 10px;
+margin-right: 10px;
+width: 25%;
+border: 3px solid black;
+}
+.wrapper{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.shopping-element img {
+      width:100%;
+   text-align: center;
+width: 250px;
+height: 400px;
+}
+
+.img{
+   margin: 5px;
+   height:350px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+
+.img:hover{
+   border: 3px dotted black;
+}
+
+.buy{
+   background-color: grey;
+   padding: 10px;
+   
+}
+
+.buy:hover{
+   background-color: black;
+   color: white;
+}
+
+#title{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div a{
+   color: white;
+   margin-right: 10px;
+}
+
+#cart{
+   right: 0;
+height: 30px;
+width: 30px;
+background-repeat: no-repeat;
+background-size: contain;
+text-align: right;
+z-index: 50000000;
+
+}
+
+#head{
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+@media screen and (max-width: 1920px) {
+
+   .shopping-element{
+      width: 25%;
+   }
+
+}
+@media screen and (max-width: 1024px) {
+
+.shopping-element{
+   width: 40%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+   .shopping-element{
+      width: 90%;
+   }
+   
+   }
