@@ -96,7 +96,7 @@ function createArticle(_article) {
     <h3>${_article.name}</h3>
     <p>${_article.description}</p>
     <label>
-    <button onclick="hndShoppingCart(${_article.price})">Add to cart</button>
+    <button onclick="hndShoppingCart(${_article.price})">${_article.price} €</button>
     </label>
     </div>`;
     document.getElementsByClassName("wrapper")[0].innerHTML += htmlArticle;
