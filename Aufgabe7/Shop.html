@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Iron Man Shop</title>
+
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <div id="head">
+            <div>
+
+                <a href="#title1" onclick="sortDisplay(originals, `Originals`)">Originals</a>
+                <a href="#title2"onclick="sortDisplay(advanced, `Advanced`)">Advanced</a>
+                <a href="#title3"onclick="sortDisplay(latest, `Latest`)">Latest</a>
+                <a href="#reset"onclick="resetDisplay()">Back to all</a>
+
+            </div>
+
+            <div id="cart" style="background-image: url(Shopping_Cart.jpg);"></div>
+            <div><span>Items: </span><span id="cartCounter"></span></div>
+
+        </div>
+
+
+
+        <div id="navbar">
+            <img src="J.A.R.V.I.S.jpg" alt="Jarvis">
+
+            <h3 id="title">
+                Iron Man up!
+            </h3>
+
+            <p>
+                Suits that suit you in every situation!
+            </p>
+        </div>
+    </header>
+    <div class="wrapper">
+      
+        <div class="OOOriginals">
+
+      </div>
+    </div>
+
+</body>
+
+</html>
