@@ -1,10 +1,10 @@
 [
-    {
-      "kategorie": "originals",
-      "img": "url(MarkI.png)",
-      "name": "Mark I",
-      "description": "The real O.G with barely the very basics to escape a group of criminals holding you hostage",
-      "price": 1000000
+  {
+    "kategorie": "originals",
+    "img": "url(MarkI.png)",
+    "name": "Mark I",
+    "description": "The real O.G with barely the very basics to escape a group of criminals holding you hostage",
+    "price": 1000000
     },
     {
       "kategorie": "originals",
